@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: #0f172a;
+    color: white;
+}
+nav{
+    background-color: #0c0f34;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 25px;
+}
+nav a{
+    color: white;
+    margin-left: 20px;
+    font-size: 17px;
+    text-decoration: none;
+}
+nav a:hover{
+    color: #1338be;
+}
+.home{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 80px;
+}
+.home img{
+    width: 250px;
+    border-radius: 25px;
+}
+.home-text h1{
+    font-size: 40px;
+}
+.home-text p{
+    gap: 10px;
+    font-size: 20px;
+    margin-top: 15px;
+}
+.home-text .school{
+    font-size: 14px;
+}
+.content{
+    padding: 50px;
+    text-align: center;
+}
+.content img{
+    width: 250px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.content p{
+    font-size: 18px;
+    line-height: 1.5;
+    margin-top: 20px;
+}
+.content-article{
+    padding: 50px;
+    text-align: center;
+}
+.content-article img{
+    width: 50%;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.content-gallery{
+    padding: 50px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+}
+.title-gallery{
+    text-align: center;
+    margin-bottom: 24px;
+    margin-top: 60px;
+    font-size: 40px;
+    color:white;
+}
+.gallery-items{
+    text-align: center;
+}
+.gallery-items p{
+    margin-top: 10px;
+    font-size: 16px;
+}
+.content-gallery img{
+    width: 250px;
+    border-radius: 20px;
+    margin-top: 10px;
+    display: block;
+}
+.contact{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding: 40px;
+}
+.box-contact{
+    background-color: #0c0f34;
+    color: white;
+    text-decoration: none;
+    width: 170px;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+.box-contact i{
+    font-size: 40px;
+}
+.box-contact:hover{
+    background-color: #23242a;
+    transform: scale(1.10);
+}
+footer{
+    text-align: center;
+    color: #94a3b8;
+    margin-top: 35px;
+    margin-bottom: 20px;
+}
